@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   checkout-and-print-tree:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Pull selenoid image
         run: docker pull selenoid/chrome:128.0
